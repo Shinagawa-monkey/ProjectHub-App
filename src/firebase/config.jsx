@@ -4,12 +4,12 @@ import { getAuth, fetchSignInMethodsForEmail } from 'firebase/auth'
 import { getStorage } from 'firebase/storage'
 
 const firebaseConfig = {
-  apiKey: 'AIzaSyC_jD19-CvJyrei7isQoRMWELtomsdzZbI',
-  authDomain: 'project-hub-site.firebaseapp.com',
-  projectId: 'project-hub-site',
-  storageBucket: 'project-hub-site.appspot.com',
-  messagingSenderId: '493238572535',
-  appId: '1:493238572535:web:92684d6b1018605ad98af2',
+  apiKey: process.env.FIREBASE_API_KEY,
+  authDomain: process.env.FIREBASE_DOMAIN,
+  projectId: process.env.FIREBASE_PROJECT_ID,
+  storageBucket: process.env.FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: process.env.FIREBASE_MSI,
+  appId: process.env.APP_ID,
 }
 
 // initialize Firebase
