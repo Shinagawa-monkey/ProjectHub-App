@@ -1,0 +1,46 @@
+.img,
+.img-dark {
+  width: 2em;
+  height: 2em;
+}
+
+.img-dark {
+  filter: grayscale(10%);
+}
+
+.nav-header,
+.nav-btn-link {
+  line-height: normal;
+  vertical-align: middle;
+}
+
+.navbar-nav .nav-link {
+  color: #3c0b6b;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: #d8a8f8;
+}
+
+.my-button {
+  border-color: #3c0b6b;
+  color: #3c0b6b;
+  background-color: transparent;
+}
+.my-button:hover {
+  color: #f8f9df;
+  background-color: #3c0b6b;
+  border-color: #3c0b6b;
+}
+
+.my-button-dark {
+  border-color: #f8f9df;
+  color: #f8f9df;
+  background-color: transparent;
+}
+.my-button-dark:hover {
+  color: #3c0b6b;
+  border-color: #f8f9df;
+  background-color: #f8f9df;
+}

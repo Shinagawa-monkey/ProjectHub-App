@@ -1,0 +1,21 @@
+.img {
+  width: 1.2em;
+  height: 1.2em;
+}
+
+.img-dark {
+  filter: grayscale(10%);
+}
+
+.footer {
+  position: fixed;
+  border-left: 0;
+  border-right: 0;
+  bottom: 0;
+}
+
+@media (max-width: 576px) {
+  .card.footer {
+    font-size: 10px;
+  }
+}

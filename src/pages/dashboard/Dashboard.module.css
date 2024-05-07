@@ -1,0 +1,82 @@
+.dashboard,
+.dashboard-dark {
+  margin: 60px auto;
+  padding-bottom: 20px;
+}
+
+.dashboard-dark {
+  color: #f8f9df;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+  align-items: flex-start;
+  width: 100%;
+}
+
+/* -------------------------------Filter Buttons ----------------------*/
+.my-button,
+.my-button:disabled {
+  border-color: #3c0b6b;
+  color: #3c0b6b;
+  background-color: #f8f9df;
+}
+.my-button:hover {
+  color: #f8f9df;
+  background-color: #3c0b6b;
+  border-color: #3c0b6b;
+}
+
+.my-button-dark,
+.my-button-dark:disabled {
+  border-color: #f8f9df;
+  color: #f8f9df;
+  background-color: #3c0b6b;
+}
+.my-button-dark:hover {
+  color: #3c0b6b;
+  border-color: #f8f9df;
+  background-color: #f8f9df;
+}
+
+/* ----------------------------Spinner------------------------ */
+.spinner-light {
+  color: #3c0b6b;
+}
+
+.spinner-dark {
+  color: #f8f9df;
+}
+
+@media (max-width: 767px) {
+  .card-container {
+    grid-template-columns: 1fr;
+  }
+
+  .dashboard,
+  .dashboard-dark {
+    position: relative;
+    padding-bottom: 60px;
+  }
+
+  .dashboard::after,
+  .dashboard-dark::after {
+    content: '';
+    position: absolute;
+    top: -22px;
+    left: 0;
+    right: -12px;
+    bottom: 0;
+    z-index: -1;
+  }
+
+  .dashboard::after {
+    background-color: #f8f9fa;
+  }
+
+  .dashboard-dark::after {
+    background-color: #212529;
+  }
+}

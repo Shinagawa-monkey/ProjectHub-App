@@ -1,0 +1,12 @@
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+      match /thumbnails/{userId}/{allPaths=**} {
+      allow read: if true; 
+      allow write: if request.auth != null && request.auth.uid == userId; 
+    }
+  }
+}
+
+// Allow authenticated users to read thumbnails
+// Allow authenticated user to write their own thumbnail

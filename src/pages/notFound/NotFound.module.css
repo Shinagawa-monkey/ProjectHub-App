@@ -1,0 +1,31 @@
+.page-body {
+  max-width: 422px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+.page-body img {
+  min-width: 50%;
+}
+
+.my-button {
+  border-color: #3c0b6b;
+  color: #3c0b6b;
+  background-color: #f8f9df;
+}
+.my-button:hover {
+  color: #f8f9df;
+  background-color: #3c0b6b;
+  border-color: #3c0b6b;
+}
+
+.my-button-dark {
+  border-color: #f8f9df;
+  color: #f8f9df;
+  background-color: #3c0b6b;
+}
+.my-button-dark:hover {
+  color: #3c0b6b;
+  border-color: #f8f9df;
+  background-color: #f8f9df;
+}

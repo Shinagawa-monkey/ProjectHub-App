@@ -1,0 +1,64 @@
+/* -----------------------Card---------------------------- */
+.card,
+.card-dark {
+  cursor: pointer;
+}
+
+.card {
+  background-color: #f4f4f4;
+  color: #333333;
+  border-color: #cccccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+  background-color: #e9e9e9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-dark {
+  background-color: #373c47;
+  color: #f8f9fa;
+  border-color: #545454;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.card-dark:hover {
+  background-color: #2d313b;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* ------------------Progress Bar------------------------- */
+/* Light Theme */
+.progress-bar {
+  background-color: #bbb;
+}
+
+.progress-bar:hover {
+  background-color: #aaa;
+}
+
+.progress-bar::-webkit-progress-bar {
+  background-color: #f4f4f4;
+}
+
+.progress-bar::-webkit-progress-value {
+  background-color: #28a745;
+}
+
+/* Dark Theme */
+.progress-bar-dark {
+  background-color: #666;
+}
+
+.progress-bar-dark:hover {
+  background-color: #555;
+}
+
+.progress-bar-dark::-webkit-progress-bar {
+  background-color: #666;
+}
+
+.progress-bar-dark::-webkit-progress-value {
+  background-color: #28a745;
+}

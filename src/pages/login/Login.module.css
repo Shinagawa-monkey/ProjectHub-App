@@ -1,0 +1,47 @@
+.login-form {
+  max-width: 360px;
+  margin: 60px auto;
+  padding: 20px;
+}
+
+.my-button,
+.my-button:disabled {
+  border-color: #3c0b6b;
+  color: #3c0b6b;
+  background-color: #f8f9df;
+}
+.my-button:hover {
+  color: #f8f9df;
+  background-color: #3c0b6b;
+  border-color: #3c0b6b;
+}
+
+.my-button-dark,
+.my-button-dark:disabled {
+  border-color: #f8f9df;
+  color: #f8f9df;
+  background-color: #3c0b6b;
+}
+.my-button-dark:hover {
+  color: #3c0b6b;
+  border-color: #f8f9df;
+  background-color: #f8f9df;
+}
+
+.form-control-dark {
+  background-color: #32383e;
+  color: #f8f9df;
+}
+
+.form-control-dark:focus {
+  background-color: #23282d;
+  color: #f8f9df;
+  outline: none;
+  border-color: #3b434b;
+  box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.25);
+}
+
+.form-control-dark:hover {
+  background-color: #2c3136;
+  color: #f8f9df;
+}

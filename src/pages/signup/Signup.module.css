@@ -1,0 +1,51 @@
+.signup-form {
+  max-width: 360px;
+  margin: 60px auto;
+  padding: 20px;
+  height: fit-content;
+}
+
+.my-button,
+.my-button:disabled {
+  border-color: #3c0b6b;
+  color: #3c0b6b;
+  background-color: #f8f9df;
+}
+
+.my-button:hover {
+  color: #f8f9df;
+  background-color: #3c0b6b;
+  border-color: #3c0b6b;
+}
+
+.my-button-dark,
+.my-button-dark:disabled {
+  border-color: #f8f9df;
+  color: #f8f9df;
+  background-color: #3c0b6b;
+}
+
+.my-button-dark:hover {
+  color: #3c0b6b;
+  border-color: #f8f9df;
+  background-color: #f8f9df;
+}
+
+.form-control-dark,
+.form-control-dark:hover,
+.form-control-dark:disabled {
+  background-color: #212529;
+  color: #f8f9df;
+}
+
+.form-control-light,
+.form-control-light:hover,
+.form-control-light:disabled {
+  background-color: #fff;
+}
+
+@media (max-width: 576px) and (orientation: portrait) {
+  .signup-form {
+    margin: 20px auto;
+  }
+}

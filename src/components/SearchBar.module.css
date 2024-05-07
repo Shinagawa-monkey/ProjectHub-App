@@ -1,0 +1,49 @@
+.searchbar form {
+  display: flex;
+  align-items: center;
+}
+
+.searchbar input {
+  margin-left: 10px;
+}
+
+.form-control-dark {
+  background-color: #32383e;
+  color: #f8f9df;
+}
+
+.form-control-dark:focus {
+  background-color: #23282d;
+  color: #f8f9df;
+  outline: none;
+  border-color: #3b434b;
+  box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.25);
+}
+
+.form-control-dark:hover {
+  background-color: #2c3136;
+  color: #f8f9df;
+}
+
+.delete-button-dark {
+  border-color: #f8f9df;
+  color: #f8f9df;
+  background-color: #dc3545;
+}
+.delete-button-dark:hover {
+  color: #dc3545;
+  background-color: #f8f9df;
+  border-color: #f8f9df;
+}
+
+.delete-button {
+  border-color: #dc3545;
+  color: #dc3545;
+  background-color: #f8f9df;
+}
+
+.delete-button:hover {
+  color: #f8f9df;
+  background-color: #dc3545;
+  border-color: #f8f9df;
+}

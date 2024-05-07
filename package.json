@@ -1,0 +1,56 @@
+{
+  "name": "project-hub",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "ProjectHub - A comprehensive project management app. Add, assign, and track projects, comment on progress, and easily search projects by category and owner.",
+  "keywords": [
+    "project",
+    "management",
+    "app",
+    "task",
+    "progress",
+    "collaboration",
+    "search"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest"
+  },
+  "author": "Elena Shatalova <elenashatalova.it@gmail.com>",
+  "license": "ISC",
+  "homepage": "https://project-hub-site.web.app/",
+  "dependencies": {
+    "bootstrap": "^5.3.1",
+    "date-fns": "^2.30.0",
+    "firebase": "^9.21.0",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.8.0",
+    "react-dom": "^18.2.0",
+    "react-router-bootstrap": "^0.26.2",
+    "react-router-dom": "^6.10.0",
+    "react-select": "^5.7.3",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^14.0.0",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@types/react-router-bootstrap": "^0.26.0",
+    "@vitejs/plugin-react": "^3.1.0",
+    "eslint": "^8.2.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "prettier": "^2.8.7",
+    "vite": "^4.2.0",
+    "vitest": "^0.30.0"
+  }
+}
