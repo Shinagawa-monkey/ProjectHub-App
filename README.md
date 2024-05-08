@@ -40,8 +40,6 @@ Explore the power of ProjectHub by visiting [ProjectHub App](https://project-hub
 4. Start the development server: `npm start`
 5. Access the app at `http://localhost:3000`
 
-<<<<<<< HEAD
-=======
 ## Color Themes
 
 ### Light Themes
