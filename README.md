@@ -29,7 +29,6 @@ Explore the power of ProjectHub by visiting [ProjectHub App](https://project-hub
 - React: Front-end framework for building interactive user interfaces.
 - Bootstrap: CSS framework for responsive and visually appealing designs.
 - Cloud Firestore: Database for storing and retrieving recipe data.
-- TheMealDB API: External API for accessing a vast collection of recipes.
 - date-fns: Modern JavaScript date utility library for handling timestamps.
 
 ### Installation
