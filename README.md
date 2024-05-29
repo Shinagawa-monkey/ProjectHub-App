@@ -18,7 +18,7 @@ Explore the power of ProjectHub by visiting [ProjectHub App](https://project-hub
 2. **Custom Avatars:** Users can sign up with custom avatars uploaded from their devices, adding a personal touch to their profiles.
 3. **Dynamic Sidebar:** The sidebar welcomes users by their username and displays real-time online/offline status.
 4. **Search and Filters:** Effortlessly search and filter projects to quickly find what you need.
-5. **Project Dashboard:e** Dive into project details with a comprehensive dashboard featuring filters and detailed views.
+5. **Project Dashboard:** Dive into project details with a comprehensive dashboard featuring filters and detailed views.
 6. **Commenting System:** Leave comments on projects to provide feedback, ask questions, or share updates.
 7. **User Permissions:** Project creators have full control to edit or delete projects, while comment creators can manage their comments.
 8. **Create New Projects:** Users can create new projects and manage project details easily.
